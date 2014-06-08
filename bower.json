@@ -12,6 +12,7 @@
   "license": "MIT",
   "homepage": "www.forms-angular.org",
   "dependencies": {
+    "forms-angular": "0.4.0-alpha.1",
     "jquery": "2",
     "jquery-ui": "1",
     "angular-ui-date": "git://github.com/mchapman/ui-date#patch-1"
