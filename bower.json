@@ -3,7 +3,7 @@
   "version": "0.4.0",
   "author": "Mark Chapman <support@forms-angular.org>",
   "description": "Angular UI date plugin for forms-angular.  Doesn't do anything apart from drag in components.",
-  "main": "datepicker-popup.js",
+  "main": "fng-ui-date.js",
   "keywords": [
     "forms-angular"
   ],

@@ -1,4 +1,6 @@
-formsAngular.directive('datepickerPopup', function (){
+// See https://github.com/angular-ui/bootstrap/issues/2659
+
+formsAngular.directive('uiDate', function (){
   return {
     restrict: 'EAC',
     require: 'ngModel',
