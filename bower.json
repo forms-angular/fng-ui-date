@@ -12,7 +12,7 @@
   "dependencies": {
     "jquery": ">=1.8",
     "jquery-ui": "1",
-    "angular-ui-date": "git://github.com/mchapman/ui-date#patch-1"
+    "angular-ui-date": ">=0.0.7"
   },
   "ignore": [
     "**/.*",
