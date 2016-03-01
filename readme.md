@@ -17,11 +17,13 @@ Date fields in models will have the date picker added.
 
 Configure as part of your Angular app configuration as follows:
 
-```myApp.config(['uiDateConfig', function(uiDateConfig) {
-    angular.extend(uiDateConfig, {
+```
+    myApp.config(['uiDateConfig', function(uiDateConfig) {
+      angular.extend(uiDateConfig, {
         dateFormat: 'dd/mm/yy',             // UK date format
         firstDay: 1                         // Monday week start
-    });
+      });
+    }]);
 ```    
 
 For detailed options see the documentation at http://jqueryui.com/datepicker/
