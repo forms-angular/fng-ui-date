@@ -1,6 +1,6 @@
 {
   "name": "fng-ui-date",
-  "version": "0.6.0",
+  "version": "0.7.0-beta.1",
   "author": "Mark Chapman <support@forms-angular.org>",
   "description": "Angular UI date plugin for forms-angular.  Doesn't do anything apart from drag in components.",
   "main": "fng-ui-date.js",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "homepage": "www.forms-angular.org",
   "dependency-comments": {
-    "angular-ui-date": "0.0.11 and above convert dates (such as 22/10/1921) by a century!"
+    "angular-ui-date": "0.0.11 and above convert dates (such as 22/10/1921) by a century!  Need to report this"
   },
   "dependencies": {
     "jquery": ">=1.8",
