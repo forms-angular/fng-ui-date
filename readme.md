@@ -30,7 +30,7 @@ For detailed options see the documentation at http://jqueryui.com/datepicker/
 
 You can specify the timezone (useful to specify UTC for dates of birth and other 'floating' dates) using the schema form.add property:
 ```
-  dateOfBirth: {type: Date, form: {add: ' ng-model-options="{timezone:\'UTC\'}"'}}  
+  dateOfBirth: {type: Date, form: {add: ' ng-model-options="{timezone:\'UTC\'}" '}}  
 
 ```
 (see the dateOfBirth property in [this](https://www.forms-angular.org/models/b_enhanced_schema.js) schema for an example)
