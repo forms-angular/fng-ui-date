@@ -9,7 +9,7 @@ Plugin for forms-angular that adds jQuery UI date picker.
 Add the following lines to your index.html (or equivalent) file
 
     <link rel="stylesheet" href="/bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
-    <script src="bower_components/angular-ui-date/src/date.js"></script>
+    <script src="bower_components/angular-ui-date/dist/date.js"></script>
     
 Date fields in models will have the date picker added.
     
@@ -27,3 +27,11 @@ Configure as part of your Angular app configuration as follows:
 ```    
 
 For detailed options see the documentation at http://jqueryui.com/datepicker/
+
+You can specify the timezone (useful to specify UTC for dates of birth and other 'floating' dates) using the schema form.add property:
+```
+  dateOfBirth: {type: Date, form: {add: ' ng-model-options="{timezone:\'UTC\'}"'}}  
+
+```
+(see the dateOfBirth property in [this](https://www.forms-angular.org/models/b_enhanced_schema.js) schema for an example)
+

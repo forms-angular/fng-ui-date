@@ -9,13 +9,10 @@
   ],
   "license": "MIT",
   "homepage": "www.forms-angular.org",
-  "dependency-comments": {
-    "angular-ui-date": "0.0.11 and above convert dates (such as 22/10/1921) by a century!  Need to report this"
-  },
   "dependencies": {
     "jquery": ">=1.8",
     "jquery-ui": "1",
-    "angular-ui-date": "0.0.10"
+    "angular-ui-date": "git://github.com/angular-ui/ui-date.git#bf9cedfe54a61a05270606a94ac9044efb6bdeec"
   },
   "ignore": [
     "**/.*",
