@@ -4,12 +4,16 @@ Plugin for forms-angular that adds jQuery UI date picker.
 
 ## Usage
 
-    bower install fng-ui-date
-    
+    npm install fng-ui-date
+
+To get all the dependencies at the top level of your node_modules run
+
+    npm dedupe
+
 Add the following lines to your index.html (or equivalent) file
 
-    <link rel="stylesheet" href="/bower_components/jquery-ui/themes/smoothness/jquery-ui.css">
-    <script src="bower_components/angular-ui-date/dist/date.js"></script>
+    <link rel="stylesheet" href="jquery-ui/themes/smoothness/jquery-ui.css">
+    <script src="angular-ui-date/dist/date.js"></script>
     
 Date fields in models will have the date picker added.
     

@@ -1,3 +1,4 @@
 .idea
 *.log
 client/bower_components
+node_modules
