@@ -14,7 +14,7 @@
     "forms-angular"
   ],
   "dependencies": {
-    "jquery": "^3.4.0",
+    "jquery": "^3.4.1",
     "jquery-ui": ">=1",
     "angular-ui-date": "git://github.com/angular-ui/ui-date.git#bf9cedfe54a61a05270606a94ac9044efb6bdeec"
   },
