@@ -4,7 +4,7 @@
   "description": "Angular UI date plugin for forms-angular.  Doesn't do anything apart from drag in components.",
   "main": "fng-ui-date.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
   "dependencies": {
     "angular-ui-date": "git://github.com/angular-ui/ui-date.git#bf9cedfe54a61a05270606a94ac9044efb6bdeec",
     "jquery": "^3.6.0",
-    "jquery-ui": ">=1"
+    "jquery-ui": ">=1.13"
   },
   "author": "Mark Chapman <support@forms-angular.org>",
   "license": "MIT",
