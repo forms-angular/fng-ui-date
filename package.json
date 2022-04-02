@@ -16,7 +16,7 @@
   "dependencies": {
     "angular-ui-date": "git://github.com/angular-ui/ui-date.git#bf9cedfe54a61a05270606a94ac9044efb6bdeec",
     "jquery": "^3.6.0",
-    "jquery-ui": "^1.13.0"
+    "jquery-ui": "^1.13.1"
   },
   "author": "Mark Chapman <support@forms-angular.org>",
   "license": "MIT",
